@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Juego de cartas
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+Crear un juego de memoria de cartas como este (usar como referencia): https://codecanyon.net/item/casino-cards-memory-html5-game-mobile-vesionadmob-construct2-capx/17355203
 
-### `npm start`
+**Demo:** 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![card memory](https://www.memozor.com/templates/memoire/images/zoom/memory_game_kids_pokemon.jpg)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Consideraciones generales
 
-### `npm test`
+Este proyecto se debe "resolver" de forma individual.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se deberá desarrollar con una de estas tres herramientas: Angular, 
+React o Vue; previamente elegida por ti.
 
-### `npm run build`
+Se puede replicar el diseño propuesto o crear su propio estilo.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Agregar pruebas unitarias a tus componentes.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Eres libre de agregar detalles al juego si deseas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+El tiempo estimado de este proyecto es 3 a 4 días.
 
-### `npm run eject`
+## Checklist
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Parte obligatoria
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### General
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [ ] El `README.md` debe contener un resumen de lo que encontraremos en tu 
+proyecto y las instrucciones del juego.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Funcionalidades
 
-## Learn More
+* [ ] Debe mostrar 8 cartas sobre la mesa al iniciar cada partida.
+* [ ] Las cartas siempre deben de tener pareja, ningun queda sola.
+* [ ] Las cartas cargan aleatoriamente, tanto el tipo como el orden sobre la mesa.
+* [ ] Si encontramos un par, las cartas desaparecerán en su mismo sitio sin moverse las demás. Solo son pares las cartas del mismo tipo.
+* [ ] Si se encontraron todos los pares mostrar un mensaje de juego terminado.
+* [ ] Deberá contener mínimo 3 componentes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Desplegado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [ ] Deberá ser desplegado en gh-pages, Heroku, Firebase Hoisting, etc.
 
-### Code Splitting
+## Recursos
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### React
 
-### Analyzing the Bundle Size
+* [React - docs oficiales](https://reactjs.org/)
+* [React - tutorial](https://egghead.io/courses/the-beginner-s-guide-to-react)
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [React js en español - tutorial básico, primeros pasos y ejemplos - frontendlabs.io](https://frontendlabs.io/3158--react-js-espanol-tutorial-basico-primeros-pasos-ejemplos)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Angular
 
-### Making a Progressive Web App
+* [Angular - docs oficiales](https://angular.io/)
+* [Angular CLI](https://cli.angular.io/)
+* [Angular - tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
+* [Angular - crud](https://www.youtube.com/watch?v=6wVolJfXn1c)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Vue
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Vue - docs oficiales](https://vuejs.org/)
+* [Vue CLI](https://cli.vuejs.org/)
+* [Vue- adicional](https://scotch.io/search?q=vue)
+* [Vue- school](https://vueschool.io/)
