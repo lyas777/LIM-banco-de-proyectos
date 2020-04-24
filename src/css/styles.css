@@ -5,7 +5,7 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(#9D5900, #3D2200);
+  background: radial-gradient(#9CD19E, #184757);
 }
 
 .game-container {
@@ -77,7 +77,7 @@ body {
 }
 .card-back {
   background-color: black;
-  border-color: #FF6D00;
+  border-color: #eef1f1;
 }
 
 .card-front {
@@ -135,12 +135,12 @@ body {
   width: 100px;
   height: 100px;
   align-self: flex-start;
-  transform: translateY(25px);
   transition: transform 100ms ease-in-out;
+  transform: scale(0.9);
 }
 
 .card-back:hover .start {
-  transform: translateY(0);
+  transform: scale(-2);
 }
 
 @media (max-width: 600px) {

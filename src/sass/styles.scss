@@ -1,10 +1,16 @@
+$color-body: #9CD19E;
+$color-combinado: #184757;
+$color-principal: rgb(238, 241, 241);
+
+
+
 html {
   min-height: 100vh;
   cursor: url("../Assets/Pokemon_Egg_icon-icons.com_67525.ico"), auto;
 }
 body {
   margin: 0;
-  background: radial-gradient(#9D5900, #3D2200);
+  background: radial-gradient($color-body, $color-combinado);
 }
 
 
@@ -78,7 +84,7 @@ body {
 
 .card-back {
   background-color: black;
-  border-color: #FF6D00;
+  border-color: $color-principal;
 }
 
 .card-front {
@@ -136,12 +142,14 @@ body {
   width: 100px;
   height: 100px;
   align-self: flex-start;
-  transform: translateY(25px);
+
   transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+
 }
 
 .card-back:hover .start {
-  transform: translateY(0)
+  transform: scale(-2);
 }
 
 @media (max-width: 600px) {
