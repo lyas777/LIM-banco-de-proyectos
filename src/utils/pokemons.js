@@ -1,6 +1,7 @@
 //instalar npm i --save lodash.shufle;
 import shuffle from "lodash.shuffle";
 
+// función que puede utilziarse para seleccionar niveles por niveles y selección random de pokemons
 const randomCards = (array, numberCards) => {
 
   let cards = [];
@@ -12,6 +13,7 @@ const randomCards = (array, numberCards) => {
   return cards;
 }
 
+// funcion para traer data y asignación de indices unicos
 export const dataPokemons = (cards) => {
     fetch('https://raw.githubusercontent.com/lyas777/LIM011-data-lovers/lyas/src/data/pokemon/pokemon.json')
     .then(response => response.json())
@@ -27,7 +29,7 @@ export const dataPokemons = (cards) => {
         newArray.push(pokemon);
       });
 
-      // aqui da indices al array
+      // aqui se da indices unicos a cada objeto
       let id =0;
       const pokemons = randomCards(newArray, 9).reduce((acc, pokemon) => {
         acc.push({
